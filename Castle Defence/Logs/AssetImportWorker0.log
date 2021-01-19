@@ -15,11 +15,11 @@ C:/Users/natha/OneDrive/Desktop/Unity Projects/Castle-Defence/Castle Defence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57214
+59081
 Successfully changed project path to: C:/Users/natha/OneDrive/Desktop/Unity Projects/Castle-Defence/Castle Defence
 C:/Users/natha/OneDrive/Desktop/Unity Projects/Castle-Defence/Castle Defence
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 86.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 133.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0f1 (3721df5a8b28)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,425 +35,395 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008185 seconds.
+Registered in 0.013320 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 75.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 145.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.830 seconds
+- Completed reload, in  8.196 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003527 seconds.
+Registered in 0.017326 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.075 seconds
+- Completed reload, in  2.528 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1886 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
+Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.9 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2317.
-Total: 7.745100 ms (FindLiveObjects: 1.738500 ms CreateObjectMapping: 0.577200 ms MarkObjects: 5.281500 ms  DeleteObjects: 0.143500 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1824.
+Total: 5.154800 ms (FindLiveObjects: 0.752500 ms CreateObjectMapping: 0.206100 ms MarkObjects: 4.047700 ms  DeleteObjects: 0.143400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41cfa13f056e58f64cf5f3363de7353') in 0.020586 seconds
-  Import took 0.026958 seconds .
+  path: Assets/Cartoon_Texture_Pack
+  artifactKey: Guid(554d8b9d9dffd864e817fa55121cc183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack using Guid(554d8b9d9dffd864e817fa55121cc183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4749692095dbbf73a70a23f8a9b2d662') in 0.024631 seconds
+  Import took 0.034988 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.392393 seconds.
-  path: Assets/Editor
-  artifactKey: Guid(d98ad1674ee8d5040ad22d07feddcab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor using Guid(d98ad1674ee8d5040ad22d07feddcab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105d8d87820d6142d59a72baa89c0e1e') in 0.010627 seconds
-  Import took 0.017546 seconds .
+  Time since last request: 16.437144 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01
+  artifactKey: Guid(1eca2105b44efc5478cc82a1176c4e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01 using Guid(1eca2105b44efc5478cc82a1176c4e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9396b0346d85b5d47f6aab773a46fd') in 0.016159 seconds
+  Import took 0.024941 seconds .
 
 ========================================================================
-Received Prepare
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+Received Import Request.
+  Time since last request: 2.006439 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures
+  artifactKey: Guid(3419957ef37569a42b60b5fbc59cc6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures using Guid(3419957ef37569a42b60b5fbc59cc6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0005d676d26e0e94db1e87d00b4f04') in 0.016652 seconds
+  Import took 0.024568 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 1.968859 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_AO.png
+  artifactKey: Guid(613465bcd7292c04e9e22cb9c2b62711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_AO.png using Guid(613465bcd7292c04e9e22cb9c2b62711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021d2c24c51e4f36175c3f8af0ae7a69') in 0.338200 seconds
+  Import took 0.343657 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.621172 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_A.png
+  artifactKey: Guid(819311b7a66a8f740b104cf9f9ffadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_A.png using Guid(819311b7a66a8f740b104cf9f9ffadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6126b5deb34d2e4bd0c008b07ca535b') in 0.162424 seconds
+  Import took 0.171020 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.357826 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_B.png
+  artifactKey: Guid(1acff9429044bf4469ddf77481156ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_B.png using Guid(1acff9429044bf4469ddf77481156ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ad246ccd89eedcf4019a5a451a13c5') in 0.136934 seconds
+  Import took 0.151418 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.244758 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_C.png
+  artifactKey: Guid(84a0082a671cb3642819cc69b89b9353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_C.png using Guid(84a0082a671cb3642819cc69b89b9353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09c083ff76f0d67bf7ea250c3d5a01b') in 0.166691 seconds
+  Import took 0.172864 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.147414 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Height.png
+  artifactKey: Guid(37c1e9a27bd81b34394f21e47a60898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Height.png using Guid(37c1e9a27bd81b34394f21e47a60898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e191ee7586f1bff1e4aea8386168771') in 0.114990 seconds
+  Import took 0.120131 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.212676 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Metallic.png
+  artifactKey: Guid(8e04de8547435554b8c484ffb2af8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Metallic.png using Guid(8e04de8547435554b8c484ffb2af8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f756b0cf5237a4e5851953da11399263') in 0.157481 seconds
+  Import took 0.162786 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.009154 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Normal.png
+  artifactKey: Guid(8b6ec8cd3adbc7a45a52309309dff911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Normal.png using Guid(8b6ec8cd3adbc7a45a52309309dff911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871bf8b688669c99a01050a81e61c018') in 0.186368 seconds
+  Import took 0.193546 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.043860 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_AO.png
+  artifactKey: Guid(438719456ebb7dc44b22000c4571a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_AO.png using Guid(438719456ebb7dc44b22000c4571a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0386dbeee9436d9b9d2aec8dc1d97b') in 0.157154 seconds
+  Import took 0.173466 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.119075 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Basecolor.png
+  artifactKey: Guid(e65e8c6f286469944a22f2777d8e870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Basecolor.png using Guid(e65e8c6f286469944a22f2777d8e870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354c5e615d16d187eff3dbd57e00c013') in 0.115069 seconds
+  Import took 0.121262 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.122828 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Height.png
+  artifactKey: Guid(1acd72c6baa7f814094ccf3696cab74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Height.png using Guid(1acd72c6baa7f814094ccf3696cab74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e181a6dbae7c3d0184c24a8e3ba53d90') in 0.105842 seconds
+  Import took 0.119968 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.183362 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Metallic.png
+  artifactKey: Guid(2391acbc368b2784f8b045f39a947221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Metallic.png using Guid(2391acbc368b2784f8b045f39a947221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcef3c543ec0c34b6ed206319c3490cf') in 0.150720 seconds
+  Import took 0.157272 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.109085 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Normal.png
+  artifactKey: Guid(f857da3d8b701944baaf2af770407084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Normal.png using Guid(f857da3d8b701944baaf2af770407084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351358d9e57970a9edb085e2906204e8') in 0.117411 seconds
+  Import took 0.123863 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.118667 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_AO.png
+  artifactKey: Guid(f7f1d2a9ada49584d83fd0238d35adb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_AO.png using Guid(f7f1d2a9ada49584d83fd0238d35adb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986d1a558ef2f0ae69e5c0ff38fed1e8') in 0.115766 seconds
+  Import took 0.121202 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.218533 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Height.png
+  artifactKey: Guid(8342664333482734c81dc32fe1b316f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Height.png using Guid(8342664333482734c81dc32fe1b316f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d569c54e5b118ca526a261438f3bcb') in 0.115722 seconds
+  Import took 0.130112 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.165158 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Basecolor.png
+  artifactKey: Guid(1d2634ee9f36b834980539d2a726ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Basecolor.png using Guid(1d2634ee9f36b834980539d2a726ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5860e7b02f7d4ff179a78a87ecff167') in 0.166951 seconds
+  Import took 0.174218 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 12.211956 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02
+  artifactKey: Guid(5f87e0db746ad06429a970b446dc4509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02 using Guid(5f87e0db746ad06429a970b446dc4509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d55669e9c1e9d61042d9ae433777d55') in 0.046396 seconds
+  Import took 0.058195 seconds .
 
-Trying to reload asset but can't find object on disk
-0x00007ff610dc8c8c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff610dd1069 (Unity) StackWalker::ShowCallstack
-0x00007ff6122a564c (Unity) GetStacktrace
-0x00007ff613363a93 (Unity) DebugStringToFile
-0x00007ff610ce7d3d (Unity) PersistentManager::ReloadFromDisk
-0x00007ff6123dce36 (Unity) ReloadSerializedSingletons
-0x00007ff6123d7e9a (Unity) <lambda_7a4e346ad56c093be607e8c3dc54f69c>::operator()
-0x00007ff6124a20d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6124a4230 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6124a79be (Unity) asio::io_service::run
-0x00007ff61241dd50 (Unity) RunAssetImportWorkerClientV2
-0x00007ff61241dda0 (Unity) RunAssetImporterV2
-0x00007ff61193d73b (Unity) Application::InitializeProject
-0x00007ff6122b2be2 (Unity) WinMain
-0x00007ff6140f8256 (Unity) __scrt_common_main_seh
-0x00007ffec0a17034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec1cfd0d1 (ntdll) RtlUserThreadStart
+========================================================================
+Received Import Request.
+  Time since last request: 0.006025 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02
+  artifactKey: Guid(5f87e0db746ad06429a970b446dc4509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02 using Guid(5f87e0db746ad06429a970b446dc4509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d55669e9c1e9d61042d9ae433777d55') in 0.012419 seconds
+  Import took 0.023553 seconds .
 
-Registering precompiled user dll's ...
-Registered in 0.004979 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.700 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.3 MB.
-System memory in use after: 70.4 MB.
+========================================================================
+Received Import Request.
+  Time since last request: 2.137453 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials
+  artifactKey: Guid(5d681353adac0074aa6e17cfb6fec5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials using Guid(5d681353adac0074aa6e17cfb6fec5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c512d1ba90038f52683a2580cbb67b7c') in 0.015111 seconds
+  Import took 0.021060 seconds .
 
-Unloading 249 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 7.536700 ms (FindLiveObjects: 1.369100 ms CreateObjectMapping: 0.537500 ms MarkObjects: 5.339100 ms  DeleteObjects: 0.283500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 159.779109 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/SAND/SAND_Beach/Textures
+  artifactKey: Guid(bda18394e14b8664b98997c98f5a2fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/SAND/SAND_Beach/Textures using Guid(bda18394e14b8664b98997c98f5a2fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce49395443006ffac13762a64987fd9f') in 0.014106 seconds
+  Import took 0.030140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.242388 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/SAND
+  artifactKey: Guid(60f5891069bad284fb969cddff4bd6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/SAND using Guid(60f5891069bad284fb969cddff4bd6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ace897cea7ef1a5a70cce682d81434') in 0.017331 seconds
+  Import took 0.026142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.559650 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS
+  artifactKey: Guid(7678495fd012edc439fb5528125d6c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS using Guid(7678495fd012edc439fb5528125d6c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72eff4099091b84f39668a55fb4e77f') in 0.014834 seconds
+  Import took 0.029955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.418418 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense
+  artifactKey: Guid(c59516d0dd3db7945867e5751f80f3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack/GRASS/GRASS_Dense using Guid(c59516d0dd3db7945867e5751f80f3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cc7c5bc6245123abc87193b005e605') in 0.015549 seconds
+  Import took 0.021871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.818687 seconds.
+  path: Assets/Art/Asset Packs/Cartoon_Texture_Pack
+  artifactKey: Guid(ec89fa019a98f7e428e3fccc01115969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Asset Packs/Cartoon_Texture_Pack using Guid(ec89fa019a98f7e428e3fccc01115969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df007efe0128c8b8241e603243e6847') in 0.013379 seconds
+  Import took 0.021684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 763.545919 seconds.
+  path: Assets/Art/Grass.png
+  artifactKey: Guid(5793bd3c511d236458f301a17a6e81bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Grass.png using Guid(5793bd3c511d236458f301a17a6e81bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af48f3ce85dc9603232bf9cdcfb755c') in 0.049346 seconds
+  Import took 0.067248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008658 seconds.
+  path: Assets/Art/Grass.png
+  artifactKey: Guid(5793bd3c511d236458f301a17a6e81bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Grass.png using Guid(5793bd3c511d236458f301a17a6e81bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af48f3ce85dc9603232bf9cdcfb755c') in 0.030108 seconds
+  Import took 0.036588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.658793 seconds.
+  path: Assets/Art/Grass.png
+  artifactKey: Guid(5793bd3c511d236458f301a17a6e81bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Grass.png using Guid(5793bd3c511d236458f301a17a6e81bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1e4d88260574a5853b6f6f2366d615') in 0.121494 seconds
+  Import took 0.129222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.779991 seconds.
+  path: Assets/Art/Ground.png
+  artifactKey: Guid(9e0831c4d14311a40a636a6e6261e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Ground.png using Guid(9e0831c4d14311a40a636a6e6261e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b5adf8af08a2fa3c280b545dc34343') in 0.035866 seconds
+  Import took 0.052458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.721756 seconds.
+  path: Assets/Art/Ground.png
+  artifactKey: Guid(9e0831c4d14311a40a636a6e6261e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Ground.png using Guid(9e0831c4d14311a40a636a6e6261e02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56ab2e1bd9ed9d808290167071092c1') in 0.054025 seconds
+  Import took 0.071092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 895.052457 seconds.
+  path: Assets/Art/Castle.png
+  artifactKey: Guid(111b3a3eeaace3440b1b90a5687f99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Castle.png using Guid(111b3a3eeaace3440b1b90a5687f99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49235c8a3af080bcab218eb8c3874d70') in 0.096608 seconds
+  Import took 0.104364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.162644 seconds.
+  path: Assets/Art/Castle.png
+  artifactKey: Guid(111b3a3eeaace3440b1b90a5687f99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Castle.png using Guid(111b3a3eeaace3440b1b90a5687f99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afee8c87bcf0962922a8357ba7cbf8a') in 0.075230 seconds
+  Import took 0.081492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 810.411616 seconds.
+  path: Assets/Art/Sprites/Grass.png
+  artifactKey: Guid(e68951ed5f4a6be489eb96bbb0923e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Grass.png using Guid(e68951ed5f4a6be489eb96bbb0923e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c521bcbeec20a9ee1fa483ff4632c4') in 0.050909 seconds
+  Import took 0.059835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.892594 seconds.
+  path: Assets/Art/Sprites/Ground.png
+  artifactKey: Guid(42843bc48f83cab4b9b25c9909407b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Ground.png using Guid(42843bc48f83cab4b9b25c9909407b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4a41b7bb3e15fad484bfb57607942d') in 0.044860 seconds
+  Import took 0.054026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.751238 seconds.
+  path: Assets/Art/Sprites/Sky.png
+  artifactKey: Guid(663a8ae35332c5e40810a36bfcbb951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Sky.png using Guid(663a8ae35332c5e40810a36bfcbb951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d1557a87133613afc8eec4c315449e') in 0.036954 seconds
+  Import took 0.046004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.732580 seconds.
+  path: Assets/Art/Sprites/Ground.png
+  artifactKey: Guid(42843bc48f83cab4b9b25c9909407b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Ground.png using Guid(42843bc48f83cab4b9b25c9909407b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82327cb652f4aec9c7a37c5af309907c') in 0.043493 seconds
+  Import took 0.051076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402681 seconds.
+  path: Assets/Art/Sprites/Sky.png
+  artifactKey: Guid(663a8ae35332c5e40810a36bfcbb951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Sky.png using Guid(663a8ae35332c5e40810a36bfcbb951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3613f64acc18abd82de58186ed4090') in 0.058440 seconds
+  Import took 0.066167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004272 seconds.
+  path: Assets/Art/Sprites/Sky.png
+  artifactKey: Guid(663a8ae35332c5e40810a36bfcbb951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Sky.png using Guid(663a8ae35332c5e40810a36bfcbb951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3613f64acc18abd82de58186ed4090') in 0.036949 seconds
+  Import took 0.044452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.702733 seconds.
+  path: Assets/Art/Sprites/Grass.png
+  artifactKey: Guid(e68951ed5f4a6be489eb96bbb0923e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Grass.png using Guid(e68951ed5f4a6be489eb96bbb0923e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74738d272ceff93defaef015006c302') in 0.049390 seconds
+  Import took 0.061086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 282.609494 seconds.
+  path: Assets/Art/Sprites/Pyramids.png
+  artifactKey: Guid(ca4589f455be6ed4885acabf64bb11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Pyramids.png using Guid(ca4589f455be6ed4885acabf64bb11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb2acc2a1d88125c5dc798c713ae586') in 0.015881 seconds
+  Import took 0.020249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.465707 seconds.
+  path: Assets/Art/Sprites/Pyramids.png
+  artifactKey: Guid(ca4589f455be6ed4885acabf64bb11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Pyramids.png using Guid(ca4589f455be6ed4885acabf64bb11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c59c9a8e3090445801cc5c102729c4a') in 0.019294 seconds
+  Import took 0.024218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.055825 seconds.
+  path: Assets/Art/Sprites/Player.png
+  artifactKey: Guid(7875d88418b961b498667a52d82f88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Player.png using Guid(7875d88418b961b498667a52d82f88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d96bab77e34461da9ff7138e8dd618') in 0.015360 seconds
+  Import took 0.020019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.280458 seconds.
+  path: Assets/Art/Sprites/Player.png
+  artifactKey: Guid(7875d88418b961b498667a52d82f88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/Player.png using Guid(7875d88418b961b498667a52d82f88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c3ba33729dd2903defa9c8dd0b7ef8') in 0.019266 seconds
+  Import took 0.024235 seconds .
 
