@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
     void Movement()
     {
         _isTouchingGround = Physics2D.OverlapCircle(groundCheckPoint.position, groundCheckRadius, groundLayer);
-        float x = Input.GetAxisRaw("Horizontal");
+        float x = SimpleInput.GetAxisRaw("Horizontal");
         Vector2 movement = new Vector2(x, 0);
         _rb.AddForce(_speed * movement);
         if (Input.GetKeyDown(KeyCode.Space) && _isTouchingGround == true)
