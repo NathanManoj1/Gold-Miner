@@ -9,9 +9,8 @@ public class Player : MonoBehaviour
     private float _speed = 1f;
     [SerializeField]
     public float _PowerOfPickaxe;
-    [SerializeField]
-    private float _JumpSpeed = 8f;
-    private bool _isTouchingGround;
+    public float _JumpSpeed = 8f;
+    public bool _isTouchingGround;
     [SerializeField]
     private LayerMask groundLayer;
     [SerializeField]
@@ -21,6 +20,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+       
         _rb = GetComponent<Rigidbody2D>();
     }
     private void FixedUpdate()
@@ -35,15 +35,13 @@ public class Player : MonoBehaviour
         float x = SimpleInput.GetAxisRaw("Horizontal");
         Vector2 movement = new Vector2(x, 0);
         _rb.AddForce(_speed * movement);
-        if (Input.GetKeyDown(KeyCode.Space) && _isTouchingGround == true)
-        {
-            _rb.velocity = new Vector2(_rb.velocity.x, _JumpSpeed);
-
-        }
+       
+       
 
     }
-    void Jump()
-    {
+   
+       
+    
 
-    }
+   
 }
