@@ -7,6 +7,7 @@ public class Button_Manager : MonoBehaviour
     Player _player;
     Rigidbody2D _rb;
     public Ground[] _ground;
+    Shops[] _shop;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,10 @@ public class Button_Manager : MonoBehaviour
         _ground = GameObject.Find("Main Ground").GetComponentsInChildren<Ground>();
         if (_ground == null)
             Debug.LogError("Ground is NULL");
+        _shop = GameObject.Find("Canvas").GetComponentsInChildren<Shops>();
+       
+
+       
         
     }
 
@@ -46,5 +51,23 @@ public class Button_Manager : MonoBehaviour
         
       
       
+    }
+   public void ElectronicShop()
+   {
+        for (int i = 0; i < _shop.Length; i++)
+            _shop[i]._ElectronicButton = true;
+   }
+    public void PowerUpShop()
+    {
+        for (int i = 0; i < _shop.Length; i++)
+            _shop[i]._PowerUpShop = true;
+    }
+    public void Bank()
+    {
+        for(int i = 0; i < _shop.Length; i++)
+        {
+            _shop[i]._BankButton = true;
+        }
+       
     }
 }
