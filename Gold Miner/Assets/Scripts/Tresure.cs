@@ -3,8 +3,12 @@ using UnityEngine;
 
 public class Tresure : MonoBehaviour
 {
-    public string[] items;
-    public int TV, Phone, Diamond;
+    UI_Manager _uiManager;
+    public int TV, Phone, Diamond, Tape;
+    private void Start()
+    {
+        _uiManager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
+    }
     private void OnTriggerStay2D(Collider2D collision)
     {
       //objective: Make a system where it reconizes what item this is and keep track of how many of the item is there;
@@ -16,14 +20,26 @@ public class Tresure : MonoBehaviour
             switch (this.tag)
             {
                 case "TV":
-                    Debug.Log("This is a TV");
+                    TV++; 
+                    Destroy(this.gameObject);
                     break;
                 case "Phone":
-                    Debug.Log("This is a Phone");
+                    Phone++;
+                    Destroy(this.gameObject);
                     break;
                 case "Diamond":
-                    Debug.Log("This is a diamond");
+                    Diamond++;
+                    Destroy(this.gameObject);
                     break;
+                case "Gold":
+                    _uiManager.UpdateCoins(10);
+                    Destroy(this.gameObject);
+                    break;
+                case "Tape":
+                     Tape++;
+                    Destroy(this.gameObject);
+                    break;
+
 
             }
          

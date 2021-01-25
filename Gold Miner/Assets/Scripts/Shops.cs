@@ -5,28 +5,24 @@ using UnityEngine.UI;
 
 public class Shops : MonoBehaviour
 {
-    [SerializeField]
+   [SerializeField]
    public GameObject[] _Shop_Panels;
    public bool _ElectronicButton;
    public bool _BankButton;
    public bool _PowerUpShop;
+  
+  
 
 
 
 
     private void Start()
     {
-        
+
     }
     private void Update()
     {
-       if(_ElectronicButton == false || _BankButton == false || _PowerUpShop == false)
-        {
-            for(int i = 0; i < _Shop_Panels.Length; i++)
-            {
-                
-            }
-        }
+     
      
     }
     
@@ -56,8 +52,5 @@ public class Shops : MonoBehaviour
         _BankButton = false;
         _PowerUpShop = false;
     }
-    public void Bank_sell()
-    {
-
-    }
+   
 }

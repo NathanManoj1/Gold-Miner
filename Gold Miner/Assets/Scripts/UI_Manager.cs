@@ -10,7 +10,7 @@ public class UI_Manager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _coinText;
  
-    void UpdateCoins(int amount)
+    public void UpdateCoins(int amount)
     {
         Coins += amount;
         _coinText.text = "Coins: " + Coins;

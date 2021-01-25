@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4760221372436456139}
   m_Layer: 0
   m_Name: Phone
-  m_TagString: Untagged
+  m_TagString: Phone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,6 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74762b85e4c15e041bd8d3c80e471680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  items: []
+  TV: 0
+  Phone: 0
+  Diamond: 0
 --- !u!58 &1510779650
 CircleCollider2D:
   m_ObjectHideFlags: 0
