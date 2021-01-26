@@ -10,7 +10,7 @@ public class Button_Manager : MonoBehaviour
     Shops[] _shop;
     UI_Manager _uiManager;
     [SerializeField]
-    private Tresure _tresure;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +27,7 @@ public class Button_Manager : MonoBehaviour
         _uiManager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
         if (_uiManager == null)
             Debug.LogError("UI Manager is NULL");
-
+      
 
 
     }
@@ -90,33 +90,41 @@ public class Button_Manager : MonoBehaviour
     //ADD IT SO IF YOU DON'T HAVE ANY THING THEN A MESSAGE APPERARS.
     public void Bank_sell_TV()
     {
-        if (_tresure.TV > 0)
+        if (_uiManager.TV > 0)
         {
-            _tresure.TV--;
+            _uiManager.TV--;
             _uiManager.UpdateCoins(75);
         }
     }
     public void Bank_sell_Phone()
     {
-        if (_tresure.Phone > 0)
-        {
-            _tresure.Phone--;
-            _uiManager.UpdateCoins(43);
-        }
+       
+        
+            if (_uiManager.Phone > 0)
+            {
+                _uiManager.Phone--;
+                _uiManager.UpdateCoins(43);
+            }
+        
+      
     }
     public void Bank_sell_Diamond()
     {
-        if(_tresure.Diamond > 0)
-        {
-            _tresure.Diamond--;
-            _uiManager.UpdateCoins(100);
-        }
+       
+        
+            if (_uiManager.Diamond > 0)
+            {
+               _uiManager.Diamond--;
+                _uiManager.UpdateCoins(100);
+            }
+        
+    
     }
     public void Bank_sell_Tape()
     {
-        if(_tresure.Tape > 0)
+        if(_uiManager.Tape > 0)
         {
-            _tresure.Tape--;
+            _uiManager.Tape--;
             _uiManager.UpdateCoins(25);
         }
     }

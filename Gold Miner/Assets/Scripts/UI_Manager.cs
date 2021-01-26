@@ -6,6 +6,7 @@ using TMPro;
 
 public class UI_Manager : MonoBehaviour
 {
+    public int TV, Phone, Diamond, Tape;
     public int Coins;
     [SerializeField]
     private TextMeshProUGUI _coinText;

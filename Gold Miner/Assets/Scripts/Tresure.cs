@@ -4,7 +4,7 @@ using UnityEngine;
 public class Tresure : MonoBehaviour
 {
     UI_Manager _uiManager;
-    public int TV, Phone, Diamond, Tape;
+  
     private void Start()
     {
         _uiManager = GameObject.Find("Canvas").GetComponent<UI_Manager>();
@@ -12,7 +12,7 @@ public class Tresure : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
       //objective: Make a system where it reconizes what item this is and keep track of how many of the item is there;
-      // make int for each item;
+      // make int for each item;s
       //how to filter the items;
 
         if(collision.tag == "Player")
@@ -20,15 +20,15 @@ public class Tresure : MonoBehaviour
             switch (this.tag)
             {
                 case "TV":
-                    TV++; 
+                   _uiManager.TV++; 
                     Destroy(this.gameObject);
                     break;
                 case "Phone":
-                    Phone++;
+                 _uiManager. Phone++;
                     Destroy(this.gameObject);
                     break;
                 case "Diamond":
-                    Diamond++;
+                 _uiManager.Diamond++;
                     Destroy(this.gameObject);
                     break;
                 case "Gold":
@@ -36,7 +36,7 @@ public class Tresure : MonoBehaviour
                     Destroy(this.gameObject);
                     break;
                 case "Tape":
-                     Tape++;
+                   _uiManager.Tape++;
                     Destroy(this.gameObject);
                     break;
 
