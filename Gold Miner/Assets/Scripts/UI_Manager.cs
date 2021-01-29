@@ -18,9 +18,11 @@ public class UI_Manager : MonoBehaviour
     private Button_Manager _buttonManager;
     [SerializeField]
     private TextMeshProUGUI[] _SellPrices;
+    GameManager _gameManager;
 
     private void Start()
     {
+        _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         _numberofseconds = 60;
         StartCoroutine(Timer());
         _buttonManager = GameObject.Find("Canvas").GetComponent<Button_Manager>();
@@ -58,9 +60,8 @@ public class UI_Manager : MonoBehaviour
             }
             if (_numberofminutes == 0 && _numberofseconds == 0)
             {
-                Debug.Log("all done");
                 i = 100;
-                i = 100;
+                _gameManager._Gameover = true;
             }
             else  if (_numberofseconds == 0)
             {
