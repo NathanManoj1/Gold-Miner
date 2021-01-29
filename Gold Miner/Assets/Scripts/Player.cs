@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     Rigidbody2D _rb;
     [SerializeField]
-    private float _speed = 1f;
+    public float _speed = 1f;
     [SerializeField]
     public float _PowerOfPickaxe;
     public float _JumpSpeed = 8f;
@@ -35,9 +35,6 @@ public class Player : MonoBehaviour
         float x = SimpleInput.GetAxisRaw("Horizontal");
         Vector2 movement = new Vector2(x, 0);
         _rb.AddForce(_speed * movement);
-       
-       
-
     }
    
        

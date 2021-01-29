@@ -10,6 +10,7 @@ public class Button_Manager : MonoBehaviour
     Shops[] _shop;
     UI_Manager _uiManager;
     [SerializeField]
+    public bool _hasMoneyMultiplier;
 
     // Start is called before the first frame update
     void Start()
@@ -32,11 +33,7 @@ public class Button_Manager : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
     public void Jump()
     {
        
@@ -59,24 +56,28 @@ public class Button_Manager : MonoBehaviour
     }
    public void ElectronicShop()
    {
-        for (int i = 0; i < _shop.Length; i++)
-            _shop[i]._ElectronicButton = true;
+      
+            _shop[2]._ElectronicButton = true;
    }
     public void PowerUpShop()
     {
-        for (int i = 0; i < _shop.Length; i++)
-            _shop[i]._PowerUpShop = true;
+       
+            _shop[0]._PowerUpShop = true;
     }
     public void Bank()
     {
-        for(int i = 0; i < _shop.Length; i++)
-        {
-            _shop[i]._BankButton = true;
-        }
+       
+            _shop[1]._BankButton = true;
+        
        
     }
     public void Xedout()
     {
+        
+        for (int i = 0; i <_shop[i].Shop_Buttons.Length; i++)
+        {
+         _shop[i].Shop_Buttons[i].SetActive(true);
+        }
         for (int i = 0; i < _shop.Length; i++)
         {
             _shop[i]._Shop_Panels[i].SetActive(false);
@@ -90,6 +91,11 @@ public class Button_Manager : MonoBehaviour
     //ADD IT SO IF YOU DON'T HAVE ANY THING THEN A MESSAGE APPERARS.
     public void Bank_sell_TV()
     {
+        if(_hasMoneyMultiplier == true)
+        {
+            _uiManager.TV--;
+            _uiManager.UpdateCoins(100);
+        }
         if (_uiManager.TV > 0)
         {
             _uiManager.TV--;
@@ -98,34 +104,70 @@ public class Button_Manager : MonoBehaviour
     }
     public void Bank_sell_Phone()
     {
-       
-        
-            if (_uiManager.Phone > 0)
-            {
-                _uiManager.Phone--;
-                _uiManager.UpdateCoins(43);
-            }
-        
-      
+        if(_hasMoneyMultiplier == true)
+        {
+            _uiManager.Phone--;
+            _uiManager.UpdateCoins(80);
+        }else if (_uiManager.Phone > 0)
+        {
+           _uiManager.Phone--;
+           _uiManager.UpdateCoins(43);
+        }
     }
     public void Bank_sell_Diamond()
     {
-       
-        
-            if (_uiManager.Diamond > 0)
-            {
-               _uiManager.Diamond--;
-                _uiManager.UpdateCoins(100);
-            }
-        
-    
+        if(_hasMoneyMultiplier == true)
+        {
+            _uiManager.Diamond--;
+            _uiManager.UpdateCoins(130);
+        }
+       if (_uiManager.Diamond > 0)
+       {
+           _uiManager.Diamond--;
+           _uiManager.UpdateCoins(100);
+       }
     }
     public void Bank_sell_Tape()
     {
-        if(_uiManager.Tape > 0)
+        if(_hasMoneyMultiplier == true)
+        {
+            _uiManager.Tape--;
+            _uiManager.UpdateCoins(49);
+        }else if(_uiManager.Tape > 0)
         {
             _uiManager.Tape--;
             _uiManager.UpdateCoins(25);
         }
+    } 
+    public void Time_PowerUp()
+    {
+        _uiManager._numberofminutes++;
+    }
+    public void Speed_PowerUP()
+    {
+        if(_uiManager.Coins >= 50)
+        {
+            _uiManager.Coins -= 50;
+            _uiManager.UpdateCoins(_uiManager.Coins);
+            _player._speed += 2;
+        }
+        else
+        {
+            Debug.Log("You don't have enough coins");
+        }
+      
+    }
+    public void Money_PowerUP()
+    {
+        if(_uiManager.Coins >= 300)
+        {
+            _uiManager.Coins -= 300;
+            _hasMoneyMultiplier = true;
+        }
+        else
+        {
+            Debug.Log("You don't have enough coins");
+        }
+       
     }
 }

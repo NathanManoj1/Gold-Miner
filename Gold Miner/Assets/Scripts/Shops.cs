@@ -10,47 +10,38 @@ public class Shops : MonoBehaviour
    public bool _ElectronicButton;
    public bool _BankButton;
    public bool _PowerUpShop;
-  
-  
+    [SerializeField]
+    public GameObject[] Shop_Buttons;
 
-
-
-
-    private void Start()
-    {
-
-    }
     private void Update()
     {
-     
-     
-    }
-    
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if(collision.tag == "Player")
-        {
-           if(_ElectronicButton == true)
-           {
+            if (_ElectronicButton == true)
+            {
+                for (int i = 0; i < Shop_Buttons.Length; i++)
+                {
+                    Shop_Buttons[i].SetActive(false);
+                }
                 _Shop_Panels[0].SetActive(true);
-           }
-           else if(_BankButton == true)
-           {
-             
+            }
+            else if (_BankButton == true)
+            {
+                for (int i = 0; i < Shop_Buttons.Length; i++)
+                {
+                    Shop_Buttons[i].SetActive(false);
+                }
                 _Shop_Panels[1].SetActive(true);
-           }
-           else if(_PowerUpShop == true)
-           {
+            }
+            else if (_PowerUpShop == true)
+            {
+                for (int i = 0; i < Shop_Buttons.Length; i++)
+                {
+                    Shop_Buttons[i].SetActive(false);
+                }
                 _Shop_Panels[2].SetActive(true);
-           }
-          
-        }
+            }
+        
     }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        _ElectronicButton = false;
-        _BankButton = false;
-        _PowerUpShop = false;
-    }
+  
+   
    
 }

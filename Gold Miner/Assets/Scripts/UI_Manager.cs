@@ -14,12 +14,28 @@ public class UI_Manager : MonoBehaviour
     private TextMeshProUGUI _Timer;
     private int _numberofseconds;
     [SerializeField]
-    private int _numberofminutes = 5;
+    public int _numberofminutes = 5;
+    private Button_Manager _buttonManager;
+    [SerializeField]
+    private TextMeshProUGUI[] _SellPrices;
 
     private void Start()
     {
         _numberofseconds = 60;
         StartCoroutine(Timer());
+        _buttonManager = GameObject.Find("Canvas").GetComponent<Button_Manager>();
+
+    }
+    private void Update()
+    {
+        if(_buttonManager._hasMoneyMultiplier == true)
+        {
+            _SellPrices[0].text = "$150";
+            _SellPrices[1].text = "$80";
+            _SellPrices[2].text = "$40";
+            _SellPrices[3].text = "$100";
+
+        }
     }
     public void UpdateCoins(int amount)
     {
@@ -55,4 +71,5 @@ public class UI_Manager : MonoBehaviour
         }
         
     }
+    
 }
