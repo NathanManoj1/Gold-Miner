@@ -10,7 +10,6 @@ public class Shops : MonoBehaviour
    public bool _ElectronicButton;
    public bool _BankButton;
    public bool _PowerUpShop;
-    [SerializeField]
     public GameObject[] Shop_Buttons;
 
     private void Update()

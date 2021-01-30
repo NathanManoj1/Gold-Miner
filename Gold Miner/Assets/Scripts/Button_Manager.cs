@@ -17,6 +17,10 @@ public class Button_Manager : MonoBehaviour
     private GameObject _howToPlayMenu;
     [SerializeField]
     private GameObject _startMenu;
+    [SerializeField]
+    private GameObject _pauseMenu;
+    [SerializeField]
+    private GameObject[] _shopButtons;
 
     // Start is called before the first frame update
     void Start()
@@ -80,10 +84,7 @@ public class Button_Manager : MonoBehaviour
     public void Xedout()
     {
         
-        for (int i = 0; i <_shop[i].Shop_Buttons.Length; i++)
-        {
-         _shop[i].Shop_Buttons[i].SetActive(true);
-        }
+      
         for (int i = 0; i < _shop.Length; i++)
         {
             _shop[i]._Shop_Panels[i].SetActive(false);
@@ -92,7 +93,11 @@ public class Button_Manager : MonoBehaviour
             _shop[i]._BankButton = false;
            
         }
-       
+        for (int i = 0; i < _shopButtons.Length; i++)
+        {
+            _shopButtons[i].SetActive(true);
+        }
+
     }
     //ADD IT SO IF YOU DON'T HAVE ANY THING THEN A MESSAGE APPERARS.
     public void Bank_sell_TV()
@@ -194,4 +199,27 @@ public class Button_Manager : MonoBehaviour
         _startMenu.SetActive(false);
         Time.timeScale = 1;
     }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+    public void ShowMenu()
+    {
+       
+        _pauseMenu.SetActive(false);
+        _startMenu.SetActive(true);
+        Time.timeScale = 0;
+    }
+    public void Resume()
+    {
+        Time.timeScale = 1;
+        _pauseMenu.SetActive(false);
+    }
+    public void Pause()
+    {
+        _pauseMenu.SetActive(true);
+        Time.timeScale = 0;
+        
+    }
+        
 }
