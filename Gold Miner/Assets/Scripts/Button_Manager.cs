@@ -11,6 +11,12 @@ public class Button_Manager : MonoBehaviour
     UI_Manager _uiManager;
     [SerializeField]
     public bool _hasMoneyMultiplier;
+    [SerializeField]
+    private GameObject _creditsMenu;
+    [SerializeField]
+    private GameObject _howToPlayMenu;
+    [SerializeField]
+    private GameObject _startMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -169,5 +175,23 @@ public class Button_Manager : MonoBehaviour
             Debug.Log("You don't have enough coins");
         }
        
+    }
+    public void CreditsMenu()
+    {
+      _creditsMenu.SetActive(true);
+    }
+    public void HTPmenu()
+    {
+        _howToPlayMenu.SetActive(true);
+    }
+    public void ExitMenu()
+    {
+        _howToPlayMenu.SetActive(false);
+        _creditsMenu.SetActive(false);
+    }
+    public void ExitStartMenu()
+    {
+        _startMenu.SetActive(false);
+        Time.timeScale = 1;
     }
 }

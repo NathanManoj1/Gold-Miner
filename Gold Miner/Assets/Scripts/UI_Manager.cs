@@ -19,9 +19,13 @@ public class UI_Manager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI[] _SellPrices;
     GameManager _gameManager;
+    [SerializeField]
+    private GameObject _startMenu;
 
     private void Start()
     {
+        _startMenu.SetActive(true);
+        Time.timeScale = 0;
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         _numberofseconds = 60;
         StartCoroutine(Timer());
