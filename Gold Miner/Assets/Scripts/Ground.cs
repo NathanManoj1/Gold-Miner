@@ -9,9 +9,12 @@ public class Ground : MonoBehaviour
     public bool _buttonClicked = true;
     Button_Manager _buttonManager;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
+        
         _player = GameObject.Find("Player").GetComponent<Player>();
         _buttonManager = GameObject.Find("Canvas").GetComponent<Button_Manager>();
        
@@ -30,6 +33,8 @@ public class Ground : MonoBehaviour
             
             if(_buttonClicked == true)
             {
+                
+                
                 Destroy(this.gameObject, _player._PowerOfPickaxe);
                 for (var i = 0; i < _buttonManager._ground.Length; i++)
                 {

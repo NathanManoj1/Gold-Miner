@@ -11,9 +11,11 @@ public class Shops : MonoBehaviour
    public bool _BankButton;
    public bool _PowerUpShop;
     public GameObject[] Shop_Buttons;
+   
 
     private void Update()
     {
+       
             if (_ElectronicButton == true)
             {
                 for (int i = 0; i < Shop_Buttons.Length; i++)

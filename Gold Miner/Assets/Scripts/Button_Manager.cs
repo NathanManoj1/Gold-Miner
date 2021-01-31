@@ -221,5 +221,17 @@ public class Button_Manager : MonoBehaviour
         Time.timeScale = 0;
         
     }
+    public void _MiningSpeedBoost()
+    {
+        _player._PowerOfPickaxe = 0;
+    }
+    public void Duribility()
+    {
+        _player.duribility = 100;
+    }
+    public void DuribilitySystem()
+    {
+        _player.duribility--;
+    }
         
 }

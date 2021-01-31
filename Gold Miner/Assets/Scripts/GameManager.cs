@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public bool _Gameover;
-    
+    [SerializeField]
+    private AudioSource _GameOver;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,16 @@ public class GameManager : MonoBehaviour
     {
         if(_Gameover == true)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            StartCoroutine(gameOverSequence());
+            
+           
         }
+    }
+    private IEnumerator gameOverSequence()
+    {
+        _GameOver.enabled = true;
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
 }
