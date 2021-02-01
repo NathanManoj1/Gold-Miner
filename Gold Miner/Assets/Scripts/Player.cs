@@ -32,7 +32,11 @@ public class Player : MonoBehaviour
     {
         StartCoroutine(Duribility());
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        if (_gameManager == null)
+            Debug.LogError("GameManager is NULL");
         _rb = GetComponent<Rigidbody2D>();
+        if (_rb == null)
+            Debug.LogError("RigidBody is NULL");
     }
     private void FixedUpdate()
     {

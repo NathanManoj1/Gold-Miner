@@ -21,6 +21,8 @@ public class Button_Manager : MonoBehaviour
     private GameObject _pauseMenu;
     [SerializeField]
     private GameObject[] _shopButtons;
+  
+   
 
     // Start is called before the first frame update
     void Start()
@@ -223,15 +225,29 @@ public class Button_Manager : MonoBehaviour
     }
     public void _MiningSpeedBoost()
     {
-        _player._PowerOfPickaxe = 0;
+        if(_uiManager.Coins >= 1000)
+        {
+            _uiManager.Coins -= 1000;
+            _uiManager.UpdateCoins(_uiManager.Coins);
+            _player._PowerOfPickaxe = 0;
+        }
+
     }
     public void Duribility()
     {
-        _player.duribility = 100;
+        if(_uiManager.Coins >= 500)
+        {
+            _uiManager.Coins -= 500;
+            _uiManager.UpdateCoins(_uiManager.Coins);
+            _player.duribility = 100;
+        }
+       
     }
     public void DuribilitySystem()
     {
         _player.duribility--;
     }
+
+
         
 }
